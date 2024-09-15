@@ -1,0 +1,103 @@
+/* Vispārējie stili */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #f5f5f5;
+}
+
+/* Header stili */
+header {
+    background-color: #4a2c2a; /* Tumšs sarkanbrūns tonis */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #8b0000; /* Asins sarkans */
+}
+
+header h1 {
+    color: #f5f5f5;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav a {
+    color: #f5f5f5;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+header nav a:hover {
+    color: #8b0000;
+}
+
+/* Main sadaļa */
+main {
+    padding: 20px;
+    background-color: #262626;
+}
+
+main h1 {
+    color: #d4af37; /* Zeltains tonis */
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+main p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Saraksti */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+ul li, ol li {
+    margin-bottom: 10px;
+}
+
+/* Footer sadaļa */
+footer {
+    background-color: #4a2c2a;
+    color: #f5f5f5;
+    text-align: center;
+    padding: 20px;
+    border-top: 5px solid #8b0000;
+}
+
+footer h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #d4af37; /* Zeltains tonis */
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f5f5f5;
+}
