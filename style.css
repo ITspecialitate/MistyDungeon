@@ -16,11 +16,11 @@ header {
 }
 
 header h1 {
-    color: #f5f5f5;
-    font-size: 2.5em;
-    text-transform: uppercase;
-    letter-spacing: 5px;
+  font-family: "MedievalSharp", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
+
 
 header nav {
     margin-top: 10px;
