@@ -48,10 +48,9 @@ main {
 }
 
 main h1 {
-    color: #d4af37; /* Zeltains tonis */
-    font-size: 2em;
-    margin-bottom: 15px;
-    text-transform: uppercase;
+    font-family: "MedievalSharp", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 main p {
