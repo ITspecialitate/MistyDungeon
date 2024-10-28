@@ -121,3 +121,28 @@ footer a {
 footer a:hover {
     color: #f5f5f5;
 }
+
+#izbraukuma-sesijas {
+    background-color: #262626;
+    color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  #izbraukuma-sesijas h2, #izbraukuma-sesijas h3, #izbraukuma-sesijas h4 {
+    color: #d4af37;
+  }
+  
+  .session-option {
+    border-bottom: 1px solid #4a2c2a;
+    padding: 15px 0;
+  }
+  
+  .session-option h3 {
+    color: #FFCC00;
+    text-shadow: 1px 1px 2px #000;
+  }
+  
+  .session-option p {
+    margin: 5px 0;
+  }
+  
